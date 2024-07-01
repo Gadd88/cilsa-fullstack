@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <div class="header-top"></div>
+        <div class="header-bottom"></div>
+    </header>
+    <main>
+        <button id="btn-contrast">Cambiar Estilos</button>
+        <h1>Formulario de Contacto</h1>
+        <form id="form">
+            <div>
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Martin..." required>
+            </div>
+            <div>
+                <label for="lastName">Apellido</label>
+                <input type="text" name="lastName" id="lastName" placeholder="Gomez..." required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="tuemail@example.com" required>
+            </div>
+            <div>
+                <label for="birthDate">Fecha de Nacimiento</label>
+                <input type="date" name="birthDate" id="birthDate" required>
+            </div>
+            <div>
+                <label for="country">Pais</label>
+                <select name="country" id="country">
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="chile">Chile</option>
+                    <option value="uruguay">Uruguay</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="bolivia">Bolivia</option>
+                    <option value="peru">Peru</option>
+                    <option value="colombia">Colombia</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="venezuela">Venezuela</option>
+                </select>
+            </div>
+            <input type="submit" value="Enviar" id="btn-submit">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="formulario.js"></script>
+</body>
+</html>

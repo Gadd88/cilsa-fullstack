@@ -1,0 +1,36 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    .header-top{
+        background-color: lightcoral;
+        height: 100px;
+    }
+    nav{
+        background-color: darkslateblue;
+        height: 50px;
+    }
+}
+main{
+    height: 600px;
+    aside{
+        background-color: darkcyan;
+        width: 150px;
+        height: 100%;
+        float: left;
+    }
+    section{
+        background-color: lightblue;
+        width: calc(100% - 150px);
+        height: 100%;
+        float: right;
+    }
+}
+
+footer{
+    background-color: black;
+    height: 50px;
+}

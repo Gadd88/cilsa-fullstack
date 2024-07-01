@@ -1,0 +1,29 @@
+body{ 
+    height: 100dvh;
+    padding: 0;
+    margin: 0;
+}
+header{
+    .header-top{
+        background-color: black;
+        height: 150px;
+    };
+    .header-bottom{
+        background-color: salmon;
+        height: 50px;
+    }
+}
+main{
+    background-color: gray;
+    div{
+        height: 400px;
+        margin: 0;
+        ul{
+            padding: 25px 0 0 25px;
+        }
+    }
+}
+footer{
+    background-color: darkslategray;
+    height: 50px;
+}
