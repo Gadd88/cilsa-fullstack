@@ -5,9 +5,6 @@ body {
   min-height: 100dvh;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-h1 {
-  text-align: center;
-}
 form {
   padding: 1rem;
   background: white;
@@ -56,8 +53,9 @@ input[type="submit"] {
 }
 .contrast input, .contrast select{
   background-color: #fff;
-  font-weight: bold;
+  font-weight: medium;
 }
 .contrast input[type="submit"] {
   background-color: #fff;
+  color: #070000;
 }
