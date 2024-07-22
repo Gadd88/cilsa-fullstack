@@ -40,28 +40,28 @@
             <section class="contact-image">
                 <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
             </section>
-            <form>
+            <form id="contact-form">
                 <h3>Déjanos tu mensaje</h3>
                <section class="row d-flex flex-column gap-3 flex-md-row gap-md-0">
                     <article class="col-md-6 d-flex flex-column gap-3">
                         <div class="form-group">
-                            <input type="text" name="txtName" class="form-control" placeholder="Tu Nombre *" value="" />
+                            <input type="text" name="nombre" class="form-control" placeholder="Tu Nombre *" value="" minlength="3" maxlength="50" required />
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtEmail" class="form-control" placeholder="Tu Email *" value="" />
+                            <input type="email" name="email" class="form-control" placeholder="Tu Email *" value="" minlength="10" maxlength="50" required/>
                         </div>
                         <div class="form-group">
-                            <input type="text" name="txtPhone" class="form-control" placeholder="Tu teléfono *" value="" />
+                            <input type="tel" name="telefono" class="form-control" placeholder="Tu teléfono *" value="" minlength="6" maxlength="50" required/>
                         </div>
                     </article>
                     <article class="col-md-6">
                         <div class="form-group">
-                            <textarea name="txtMsg" class="form-control" placeholder="Tu mensaje *" style="width: 100%; height: 150px;"></textarea>
+                            <textarea name="mensaje" class="form-control" placeholder="Tu mensaje *" style="width: 100%; height: 150px;" required maxlength="500" minlength="10"></textarea>
                         </div>
                     </article>
                 </section>
                 <section class="btnContainer d-flex justify-content-center ">
-                    <input type="submit" name="btnSubmit" class="btnContact" value="Enviar mensaje.." />
+                    <input type="submit" name="btnSubmit" class="btnContact" value="Enviar mensaje.." id="btn-submit" />
                 </section>
             </form>
 </main>
@@ -73,5 +73,6 @@
     <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="../js/script-form.js"></script>
 </body>
 </html>
