@@ -10,7 +10,7 @@
 <body class="p-2">
     <!-- NAVBAR -->
      <header>
-         <nav class="navbar navbar-expand-lg bg-danger-subtle rounded-3">
+         <nav class="navbar navbar-expand-lg bg-primary-subtle rounded-3">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Proyecto BOOTSTRAP</a>
                 <button class="navbar-toggler bg-body-tertiary border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,12 +34,44 @@
             </div>
         </nav>
      </header>
-     <!-- ******** -->
+          <!-- ******** -->
+
+<main class="container contact-form">
+            <section class="contact-image">
+                <img src="https://image.ibb.co/kUagtU/rocket_contact.png" alt="rocket_contact"/>
+            </section>
+            <form>
+                <h3>Déjanos tu mensaje</h3>
+               <section class="row d-flex flex-column gap-3 flex-md-row gap-md-0">
+                    <article class="col-md-6 d-flex flex-column gap-3">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Tu Nombre *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Tu Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Tu teléfono *" value="" />
+                        </div>
+                    </article>
+                    <article class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Tu mensaje *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </article>
+                </section>
+                <section class="btnContainer d-flex justify-content-center ">
+                    <input type="submit" name="btnSubmit" class="btnContact" value="Enviar mensaje.." />
+                </section>
+            </form>
+</main>
+
 
 
 
 
     <!-- SCRIPTS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
