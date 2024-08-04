@@ -33,23 +33,18 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Nosotros</a>
-              </li>
-              <li class="nav-item dropdown">
-              <li class="nav-item">
-                <a class="nav-link" href="./productos.html">Productos</a>
-              </li>
-              <li class="nav-item dropdown">
                 <a
                   class="nav-link"
-                  href="./contacto.html"
-                  aria-expanded="false"
+                  aria-current="page"
+                  href="../index.html"
+                  >Inicio</a
                 >
-                  Contacto
-                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Perfil</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./contacto.html"> Contacto </a>
               </li>
             </ul>
           </div>
@@ -58,34 +53,45 @@
     </header>
     <!-- ******** -->
     <main>
-      <section class="container mt-5">
-        <article class="row d-flex justify-content-center">
-          <div class="col-md-7 bg-light py-2">
-              <figure class="text-center">
+      <div class="container mt-5">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-7">
+            <div class="card p-3 py-4">
+              <div class="text-center">
                 <img
-                  src="#"
-                  width="250px"
-                  height="250px"
-                  class="rounded-circle img-fluid h-50"
-                  alt="Logo de la tienda e-commerce de ropa deportiva"
+                  src="../img/img-main/logoenergy.png"
+                  width="100"
+                  class="rounded-circle bg-black"
                 />
-              </figure>
+              </div>
+
               <div class="text-center mt-3">
-                <h1 class="mt-2 my-3">Central Sport</h1>
-                <span class="fw-medium">Tienda de Productos Deportivos</span>
+                <h5 class="mt-2 mb-0">Energy Sport</h5>
+                <span>Tienda de Productos Deportivos</span>
+
                 <div class="px-4 mt-1">
-                  <p class="text-start lead my-5">
+                  <p class="fonts">
                     Consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua. Ut enim ad
                     minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat
+                    ut aliquip ex ea commodo consequat.
                   </p>
                 </div>
-                <a href="./contacto.html" class="btn btn-info fw-medium text-white">Contáctanos</a>
+
+                <ul class="social-list">
+                  <li><i class="fa fa-facebook"></i></li>
+                  <li><i class="fa fa-instagram"></i></li>
+                  <li><i class="fa fa-linkedin"></i></li>
+                </ul>
+
+                <div class="buttons">
+                  <button class="btn btn-primary-accent">Contáctanos</button>
+                </div>
               </div>
+            </div>
           </div>
-        </article>
-      </section>
+        </div>
+      </div>
     </main>
 
     <!-- SCRIPTS -->
